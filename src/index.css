@@ -1,0 +1,15 @@
+
+html,
+body,
+#root{
+    width: 100%;
+    height: 100%;
+    cursor: default;
+}
+
+body {
+    font: normal 14px/1.4 Arial, sans-serif;
+    color: #000;
+    background: #fff;
+    position: absolute;
+}
