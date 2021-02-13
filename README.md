@@ -1,6 +1,6 @@
 # Установка
   
-    npm run start:dev
+    npm install
     
 # Запуск в режиме watch
   
