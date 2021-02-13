@@ -1,0 +1,41 @@
+
+.tableContainer{
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 40px;
+}
+
+.tableCell{
+    width: 28px;
+    height: 28px;
+    background-color: white;
+}
+
+.tableCellBlack{
+    background-color: black;
+}
+
+
+.invert .tableCell{
+    background-color: black;
+}
+
+.invert .tableCellBlack{
+    background-color: white;
+}
+
+.resetButton{
+    height:40px;
+    background-color: teal;
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:14px;
+}
+
+
+
+
+

@@ -1,0 +1,36 @@
+
+.container{
+    position: absolute;
+    margin-top:20px;
+    margin-left:50px;
+    display:flex;
+    flex-direction: row;
+}
+
+
+.numericUpDown{
+    width:60px;
+    height: 30px;
+    font-size:28px;
+}
+
+.matrixWrapper{
+    display:grid;
+    flex-direction: column;
+    padding-left: 20vw;
+}
+
+.matrixRow{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+}
+
+.matrixCell{
+    grid-column-start: 0;
+    width: 60px;
+    height: 60px;
+    background-color: bisque;
+    border-style:solid;
+    border-color: grey;
+}

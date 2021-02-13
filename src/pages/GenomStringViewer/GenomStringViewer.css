@@ -1,0 +1,28 @@
+
+
+.inputBoxContainer{
+    position: absolute;
+    margin-top:20px;
+    margin-left:50px;
+}
+
+.inputWrapper{
+    display:flex;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+    font-size:1.7em;
+}
+
+.textInput{
+    width: 420px;
+    height: 30px;
+    background-color: rgb(248, 244, 244);
+    font-size:28px;
+    border-style:none;
+}
+
+.textInput:focus{
+    border-style:none;
+}

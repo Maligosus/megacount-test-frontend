@@ -1,0 +1,26 @@
+
+.taskBlock{
+    background-color: antiquewhite;
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top:3%;
+    margin-left:3%;
+    border-radius: 30px;
+}
+
+.taskTittle{
+    background-color: rgb(157, 158, 221);
+    height: 60px;
+    max-height: 60px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding-left: 30px;
+    padding-top:30px;
+    font-size: 2.5em;
+}
+
+.taskContent{
+    min-height: 50vh;
+    overflow-wrap: break-word;
+}

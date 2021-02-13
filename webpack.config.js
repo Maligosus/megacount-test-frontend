@@ -32,7 +32,7 @@ module.exports={
     module:{
         rules:[
                 {
-                    test: /\.js$/,
+                    test: /\.tsx?$/i,
                     exclude: /(node_modules|bower_components)/,
                     use: {
                         loader: 'ts-loader'
@@ -51,7 +51,13 @@ module.exports={
         publicPath:"/",
         host:'0.0.0.0',
         port: APP_PORT,
-        contentBase: CONTENT_BASE
+        contentBase: CONTENT_BASE,
+        proxy:{
+            "/all" : "http://localhost:8080",
+            "/courseNumber" : "http://localhost:8080",
+            "/facultyName"  : "http://localhost:8080",
+            "/dateOfBirth"  : "http://localhost:8080"
+        }
     },
     plugins:pluginList
 };

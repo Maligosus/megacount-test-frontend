@@ -1,0 +1,73 @@
+.dataTableContainer{
+    background-color: white;
+    border-color:black;
+    min-width: 45vw;
+    border-radius:15px;
+}
+
+.dataTableContainer thead{
+    background-color:#3688f3;
+    text-align: left;
+    height: 40px;
+    line-height: 40px;
+}
+
+.dataTableContainer thead tr{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.dataTableContainer thead tr th{
+    flex-direction: row-reverse;
+    align-content: center;
+}
+
+.dataTableContainer thead tr th:first-child{
+    border-top-left-radius: 15px;
+    text-align: center;
+}
+
+.dataTableContainer thead tr th:last-child{
+    border-top-right-radius: 15px;
+}
+
+.dataTableContainer tbody{
+    border-bottom-style: none;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.dataTableContainer tbody tr{
+    height:40px;
+    border:rgba(146, 116, 116, 0.2) 1px solid;
+    border-top-style:none;
+    border-left-style:none;
+    border-right-style: none;
+}
+
+.dataTableContainer tbody td{
+    margin-top: 20px;
+    background-color: #ffffff;
+    color:black;
+    height:30px;
+    text-align:left;
+    min-width: 30px;
+}
+
+.dataTableContainer tbody tr td:first-child{
+    text-align: center;
+}
+
+.dataTableContainer tbody tr:last-child{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.dataTableContainer tbody tr:last-child td:first-child{
+    border-bottom-left-radius: 15px;
+}
+
+.dataTableContainer tbody tr:last-child td:last-child{
+    border-bottom-right-radius: 15px;
+}
+

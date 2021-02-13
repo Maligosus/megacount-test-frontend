@@ -1,0 +1,26 @@
+
+.studentList{
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.valueWrapper{
+    margin-top:30px;
+    margin-left:10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.selector{
+    height: 28px;
+}
+
+.textBox{
+    height: 28px;
+    margin-top:15px;
+}
+
+
+

@@ -1,0 +1,14 @@
+
+
+.tableGenContainer{
+    margin-left:20px;
+    margin-top:20px
+}
+
+.tableContainer td{
+    border-style:solid;
+    border-color: rgb(105, 105, 255);
+    width:30px;
+    height: 30px;
+}
+
